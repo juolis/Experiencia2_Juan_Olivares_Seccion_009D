@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+       <!-- Latest compiled and minified CSS -->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+       <!-- jQuery library -->
+       <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+   
+       <!-- Popper JS -->
+       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+   
+       <!-- Latest compiled JavaScript -->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <section>
+      <div class="row">
+          <header>
+              <h1 class="col-12">LumpPet</h1>
+          </header>
+      </div>
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-liht bg-dark">
+          <div class="container">
+              <a class="navbar-brand" href="#"><img src="img/logo.png" class="logo-brand" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportContent"aria-controls="navbarSupportContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <ion-icon name="menu-outline"></ion-icon>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav m-lg-auto">
+                      <li class="nav-item">
+                          <a class="nav-link" href="indexs.html" id="Inicio" >Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="galery.html" id="Galeria" >Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="nosotros.html" id="nosotros" >nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="Registro.html"id="Registro">Registro</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="servicio.html"id="servicio">Servicio</a>
+                    </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="contacto" id="contacto" >Contacto</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <input type="button" class="btn btn-primary" onclick="MostrarFecha()" value="La fecha es?">
+      <p id="demo"></p>
+      <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <!--acordion-->
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <strong> Visor</strong>
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    nustra tienda de mascota es para que quienes compren articulos de aceo o comida o jugetes tengan para los animales de las mastota se puedan divertirse con sus dueños
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div id="video">
+              <iframe width="700" height="400" src="https://www.youtube.com/embed/qePDqlf23F4" 
+               title="YouTube video player" frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+          <div class="row">
+            <div class="container">
+                <footer class="bg-light text-center text-black">
+                    <div class="container p-4p b-0">
+                        <section class="mb-3">
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com" role="button"><i
+                                class="fab fa-facebook-f"><img src="/imagen/logoface.png" width="30px"></i></a>
+                            <!-- instagram -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com" role="button"><i class="fab fa-instagram"><img
+                                  src="/imagen/logoing.png" width="30px"></i></a>
+                            <!-- twitter -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com" role="button"><i class="fab fa-twitter"><img
+                                  src="/imagen/logotwitt.png" width="30px"></i></a>
+                        </section>
+                    </div>
+                    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                      Juan rafael olivares Vargas<br>
+                        © 2022 Copyright:
+                      </div>
+                </footer>
+            </div>
+        </div>
+  </section>
+  <script src="js/Dom.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+</html>
